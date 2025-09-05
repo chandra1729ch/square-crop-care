@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/square-crop-care/static/css/main.e3b81a23.css",
-    "main.js": "/square-crop-care/static/js/main.2edbee04.js",
+    "main.js": "/square-crop-care/static/js/main.1c5bd2e4.js",
     "static/js/453.4c1f74c5.chunk.js": "/square-crop-care/static/js/453.4c1f74c5.chunk.js",
     "static/media/img-crausel-4.jpg": "/square-crop-care/static/media/img-crausel-4.34980ecbed4fbfe3c92b.jpg",
     "static/media/img-crausel-2.jpg": "/square-crop-care/static/media/img-crausel-2.4cd781b7c7c1a4188ca2.jpg",
@@ -80,11 +80,11 @@
     "static/media/slick.woff": "/square-crop-care/static/media/slick.295183786cd8a1389865.woff",
     "index.html": "/square-crop-care/index.html",
     "main.e3b81a23.css.map": "/square-crop-care/static/css/main.e3b81a23.css.map",
-    "main.2edbee04.js.map": "/square-crop-care/static/js/main.2edbee04.js.map",
+    "main.1c5bd2e4.js.map": "/square-crop-care/static/js/main.1c5bd2e4.js.map",
     "453.4c1f74c5.chunk.js.map": "/square-crop-care/static/js/453.4c1f74c5.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.e3b81a23.css",
-    "static/js/main.2edbee04.js"
+    "static/js/main.1c5bd2e4.js"
   ]
 }
