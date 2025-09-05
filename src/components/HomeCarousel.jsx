@@ -3,7 +3,7 @@ import Slider from "react-slick";
 import { Box, Typography, Button } from "@mui/material";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
-import image1 from '../img-crausel-1.jpg'
+import image1 from '../img-crausel-3.jpg'
 import image2 from '../img-crausel-2.jpg'
 import image3 from '../img-crausel-4.jpg'
 import { useNavigate } from "react-router-dom";

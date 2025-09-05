@@ -1,4 +1,5 @@
 import { Box, Grid, Typography, IconButton, Paper } from "@mui/material";
+import logo from "../../src/logo-square1.png";
 import FacebookIcon from "@mui/icons-material/Facebook";
 import TwitterIcon from "@mui/icons-material/Twitter";
 import LinkedInIcon from "@mui/icons-material/LinkedIn";
@@ -43,13 +44,20 @@ function Footer() {
   return (
     <Box sx={{ backgroundColor: "green", color: "white", p: 4, mt: 4 }}>
       <Grid container spacing={4}>
+        <Typography>
+                  <img
+                  style={{ height: "70px", maxWidth: "200px" }}
+                    src={logo}
+                    alt="SQUARE CROP SCIENCE PROIVATE LIMITED"
+                  />
+                </Typography>
         {offices.map((office, index) => (
           <Grid item xs={12} sm={4} key={index}>
             <Paper
               elevation={4}
               sx={{
                 p: 3,
-                backgroundColor: "rgba(255,255,255,0.05)",
+                backgroundColor: "rgba(255, 255, 255, 0.05)",
                 borderRadius: 3,
                 height: "85%",
               }}

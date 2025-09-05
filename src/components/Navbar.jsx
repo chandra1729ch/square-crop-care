@@ -1,5 +1,5 @@
 import { AppBar, Toolbar, Typography, Button } from "@mui/material";
-import logo from "../../src/logo-square1.png";
+import logo from "../../src/logo3.png";
 const navButtonStyle = {
     color: "white",
     textTransform: "none",

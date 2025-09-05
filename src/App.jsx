@@ -7,12 +7,12 @@ import Products from "./pages/Products";
 import Team from "./pages/Team";
 import Contact from "./pages/Contact";
 import HomeCarousel from "./components/HomeCarousel";
+import ScrollToTopButton from "./components/ScrollToTopButton";
 
 function App() {
   return (
     <Router>
       <Navbar />
-      <HomeCarousel />
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/about" element={<About />} />
@@ -21,6 +21,7 @@ function App() {
         <Route path="/contact" element={<Contact />} />
       </Routes>
       <Footer />
+      <ScrollToTopButton />
     </Router>
   );
 }

@@ -1,29 +1,50 @@
-import { Container, Grid, Typography } from "@mui/material";
-import { Work, Code, Cloud } from "@mui/icons-material";
-import ServiceCard from "../components/ServiceCard";
+import React, { useState } from "react";
+import { Container, Typography, Pagination, Box } from "@mui/material";
+import products from "../products.json"; // Make sure this is a valid array
+import Product from "../components/Product";
+import "../components/Product.css"; // Your custom CSS
 
-function Services() {
-  const services = [
-    { title: "Consulting", desc: "Expert advice to grow your business.", icon: <Work /> },
-    { title: "Development", desc: "Custom software solutions built for you.", icon: <Code /> },
-    { title: "Cloud", desc: "Expand your presence worldwide.", icon: <Cloud /> },
-  ];
+function Products() {
+  const [page, setPage] = useState(1);
+  const productsPerPage = 6; // 2 rows × 3 columns
+
+  const handleChange = (event, value) => {
+    setPage(value);
+  };
+
+  // const startIndex = (page - 1) * productsPerPage;
+  // const endIndex = startIndex + productsPerPage;
+  // const currentProducts = products.slice(startIndex, endIndex);
 
   return (
-    <Container sx={{ py: 6 }}>
-      <Typography variant="h4" textAlign="center" fontWeight="bold" gutterBottom>
-        Our Services
+    <Container maxWidth="lg" sx={{ py: 6 }}>
+      <Typography
+        variant="h4"
+        textAlign="center"
+        fontWeight="bold"
+        gutterBottom
+      >
+        Our Products
       </Typography>
-      <Grid container spacing={3}>
-        {services.map((s, i) => (
-          <Grid item xs={12} sm={6} md={4} key={i}>
-            <ServiceCard {...s} />
-          </Grid>
+
+      <div className="product-grid">
+        {products.map((product, index) => (
+          <div className="product-card" key={index}>
+            <Product {...product} />
+          </div>
         ))}
-      </Grid>
+      </div>
+
+      {/* <Box display="flex" justifyContent="center" mt={4}>
+        <Pagination
+          count={Math.ceil(products.length / productsPerPage)}
+          page={page}
+          onChange={handleChange}
+          color="primary"
+        />
+      </Box> */}
     </Container>
   );
 }
 
-
-export default Services;
+export default Products;

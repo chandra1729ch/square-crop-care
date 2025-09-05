@@ -1,11 +1,13 @@
-import Hero from "../components/Hero";
-import Services from "./Products";
+import HomeCarousel from "../components/HomeCarousel";
+import ScrollToTopButton from "../components/ScrollToTopButton";
+import About from "./About";
 import Team from "./Team";
 
 function Home() {
   return (
     <>
-      <Services />
+      <HomeCarousel />
+      <About />
       <Team />
     </>
   );

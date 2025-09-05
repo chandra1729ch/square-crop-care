@@ -1,0 +1,13 @@
+.product-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr); /* 3 products per row */
+  gap: 24px;
+}
+
+.product-card {
+  /* Optional: add styling to each card */
+  padding: 16px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  background: white;
+  border-radius: 8px;
+}

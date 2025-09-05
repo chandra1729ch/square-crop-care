@@ -14,28 +14,34 @@ function Contact() {
       city: "Corporate office Address",
       name: "SQUARE CROP CARE SCIENCES PRIVATE LIMITED",
       address: "H No. 6-3-347/7,Uma Residency,Dwarakapuri Colony, 1st Floor,Punjagutta,Hyderabad, Near Laxmi Womens Hostel, Telangana-500082.",
-      phone: "040-45330111/9000406007/8008516644",
+      phone1: "9000406007",
+      phone3: "8008516644",
+      phone2:"040-45330111",
       gtsNo:"36ABHCS4437L1ZW",
       email: "squarecropcarepvtltd22@gmail.com",
-      map: "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3806.231!2d78.4867!3d17.3850!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bcb90c9f97b3f9b%3A0x2e15d5!2sHyderabad!5e0!3m2!1sen!2sin!4v1677605229387",
+      map: "https://www.google.com/maps/embed?pb=!1m17!1m12!1m3!1d3806.762982985704!2d78.4488334751657!3d17.423158583470126!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m2!1m1!2zMTfCsDI1JzIzLjQiTiA3OMKwMjcnMDUuMSJF!5e0!3m2!1sen!2sin!4v1756993250886!5m2!1sen!2sin",
     },
     {
       city: "Factory Address 1",
       name: "SQUARE CROP CARE SCIENCES PRIVATE LIMITED",
       address: "G P H No. 1-1/T34 A No. 95,Sy No. 88/E, Masaipet Mandal, Pothansettypally chowrastha, Medak, Telangana-502109.",
-      phone: "040-45330111/9000406007/8008516644",
+      phone1: "9000406007",
+      phone3: "8008516644",
+      phone2:"040-45330111",
       gtsNo:"36ABHCS4437L1ZW",
       email: "squarecropcarepvtltd22@gmail.com",
-      map: "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3888.835!2d77.5946!3d12.9716!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bae1670b7f5f9c5%3A0x2b3f3b7a2d7f6d7!2sBangalore!5e0!3m2!1sen!2sin!4v1677605329387"
+      map: "https://www.google.com/maps/embed?pb=!1m17!1m12!1m3!1d3796.258409867804!2d78.47778697517728!3d17.920097383060856!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m2!1m1!2zMTfCsDU1JzEyLjQiTiA3OMKwMjgnNDkuMyJF!5e0!3m2!1sen!2sin!4v1756993450530!5m2!1sen!2sin"
     },
     {
       city: "Factory Address 2",
       name: "SQUARE CROP CARE SCIENCES PRIVATE LIMITED",
       address: "Plot No, 15/P, Jeedimetla, Qutubullapur, Hyderabad, Medchal Malkajgiri,Telangana-500055.",
-      phone: "040-45330111/9000406007/8008516644",
+      phone1: "9000406007",
+      phone3: "8008516644",
+      phone2:"040-45330111",
       gtsNo:"36ABHCS4437L1ZW",
       email: "squarecropcarepvtltd22@gmail.com",
-      map: "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3888.835!2d77.5946!3d12.9716!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bae1670b7f5f9c5%3A0x2b3f3b7a2d7f6d7!2sBangalore!5e0!3m2!1sen!2sin!4v1677605329387",
+      map: "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d30437.941471583385!2d78.43624630561139!3d17.519792536943516!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bcb9003dc198f03%3A0xaef138a0a8179e74!2sJeedimetla%2C%20Hyderabad%2C%20Telangana!5e0!3m2!1sen!2sin!4v1756993984336!5m2!1sen!2sin",
     },
   ];
 
@@ -79,7 +85,7 @@ function Contact() {
                     variant="body2"
                     sx={{ mt: 1, fontWeight: "bold" }}
                   >
-                    📞 {office.phone}
+                    📞 <a href={`tel:${office.phone1}`}>{office.phone1}</a>/<a href={`tel:${office.phone2}`}>{office.phone2}</a>/<a href={`tel:${office.phone3}`}>{office.phone3}</a>
                   </Typography>
                 </CardContent>
               </Card>

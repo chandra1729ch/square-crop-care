@@ -1,22 +1,26 @@
-import React from "react";
 import { Box, Typography, Container, Grid, Paper } from "@mui/material";
 import ScienceIcon from "@mui/icons-material/ScienceRounded";
 import SecurityIcon from "@mui/icons-material/SecurityRounded";
 import AgricultureIcon from "@mui/icons-material/AgricultureRounded";
 import CompostRoundedIcon from '@mui/icons-material/CompostRounded';
+import { useLocation } from 'react-router-dom'
 
 function About() {
+  const location = useLocation();
+  
+  const currentPath = location.pathname;
+
   return (
     <Box sx={{ bgcolor: "#f9fdf9", py: 6 }}>
       <Container maxWidth="lg">
         {/* Heading */}
-        <Typography
+        {currentPath ==='/about' && <Typography
           variant="h3"
           align="center"
           sx={{ fontWeight: "bold", color: "green", mb: 4 }}
         >
           About Us
-        </Typography>
+        </Typography>}
 
         {/* Intro Description */}
         <Typography
