@@ -1,4 +1,4 @@
-import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+import { HashRouter as Router, Routes, Route } from "react-router-dom";
 import Navbar from "./components/Navbar";
 import Footer from "./components/Footer";
 import Home from "./pages/Home";
@@ -6,7 +6,6 @@ import About from "./pages/About";
 import Products from "./pages/Products";
 import Team from "./pages/Team";
 import Contact from "./pages/Contact";
-import HomeCarousel from "./components/HomeCarousel";
 import ScrollToTopButton from "./components/ScrollToTopButton";
 
 function App() {
