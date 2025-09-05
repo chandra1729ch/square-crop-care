@@ -1,4 +1,4 @@
-import { HashRouter as Router, Routes, Route, HashRouter } from "react-router-dom";
+import { HashRouter as Router, Routes, Route } from "react-router-dom";
 import Navbar from "./components/Navbar";
 import Footer from "./components/Footer";
 import Home from "./pages/Home";
@@ -10,7 +10,7 @@ import ScrollToTopButton from "./components/ScrollToTopButton";
 
 function App() {
   return (
-    <HashRouter>
+    <Router basename="/square-crop-care">
       <Navbar />
       <Routes>
         <Route path="/" element={<Home />} />
@@ -21,7 +21,7 @@ function App() {
       </Routes>
       <Footer />
       <ScrollToTopButton />
-    </HashRouter>
+    </Router>
   );
 }
 export default App;
