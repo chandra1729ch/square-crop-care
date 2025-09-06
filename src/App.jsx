@@ -10,7 +10,7 @@ import ScrollToTopButton from "./components/ScrollToTopButton";
 
 function App() {
   return (
-    <Router basename="/square-crop-care">
+    <Router>
       <Navbar />
       <Routes>
         <Route path="/" element={<Home />} />
