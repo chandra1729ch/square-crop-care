@@ -2,7 +2,7 @@
   "name": "square-crop-care",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://squarecropcare.github.io/square-crop-care", 
+  "homepage": "https://squarecropcare.netlify.app/", 
   "dependencies": {
     "@emotion/react": "^11.14.0",
     "@emotion/styled": "^11.14.1",
