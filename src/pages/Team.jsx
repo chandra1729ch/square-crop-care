@@ -19,7 +19,7 @@ function Team() {
         {team.map((member, i) => (
           <Grid item xs={12} sm={6} md={4} key={i}>
             <Card sx={{ width: '330px', height: '250px', textAlign: "center", p: 2 }}>
-              <img src={member.img} sx={{ mx: "auto", mb: 2 }}  style={{width: '150px', height: '150px', borderRadius: '40px'}}/>
+              <img src={member.img} alt="Role" sx={{ mx: "auto", mb: 2 }}  style={{width: '150px', height: '150px', borderRadius: '40px'}}/>
               <CardContent>
                 <Typography variant="h6">{member.name}</Typography>
                 <Typography variant="body2" color="text.secondary">

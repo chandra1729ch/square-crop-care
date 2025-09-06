@@ -12,9 +12,9 @@ function Products() {
     setPage(value);
   };
 
-  // const startIndex = (page - 1) * productsPerPage;
-  // const endIndex = startIndex + productsPerPage;
-  // const currentProducts = products.slice(startIndex, endIndex);
+  const startIndex = (page - 1) * productsPerPage;
+  const endIndex = startIndex + productsPerPage;
+  const currentProducts = products.slice(startIndex, endIndex);
 
   return (
     <Container maxWidth="lg" sx={{ py: 6 }}>
@@ -28,21 +28,21 @@ function Products() {
       </Typography>
 
       <div className="product-grid">
-        {products.map((product, index) => (
+        {currentProducts.map((product, index) => (
           <div className="product-card" key={index}>
             <Product {...product} />
           </div>
         ))}
       </div>
 
-      {/* <Box display="flex" justifyContent="center" mt={4}>
+      <Box display="flex" justifyContent="center" mt={4}>
         <Pagination
           count={Math.ceil(products.length / productsPerPage)}
           page={page}
           onChange={handleChange}
           color="primary"
         />
-      </Box> */}
+      </Box>
     </Container>
   );
 }
