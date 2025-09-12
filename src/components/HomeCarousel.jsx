@@ -3,25 +3,30 @@ import Slider from "react-slick";
 import { Box, Typography, Button } from "@mui/material";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
-import image1 from '../img-crausel-3.jpg'
-import image2 from '../img-crausel-2.jpg'
-import image3 from '../img-crausel-4.jpg'
+import image1 from '../img-crausel-3.jpg';
+import image2 from '../img-crausel-2.jpg';
+import image3 from '../img-crausel-4.jpg';
+import farmVideo from '../dusherra_wishes.mp4'; // Your video path
 import { useNavigate } from "react-router-dom";
 
 function HomeCarousel() {
   const settings = {
     dots: true,
     infinite: true,
-    speed: 500,
+    speed: 1000,
     slidesToShow: 1,
     slidesToScroll: 1,
     autoplay: true,
-    autoplaySpeed: 4000,
+    autoplaySpeed: 10000,
     arrows: true
   };
 
-  // Example pesticide-themed slides
   const slides = [
+    {
+      video: farmVideo,
+      caption: "See Us In Action 🎥",
+      sub: "Watch how our products are making a difference on real farms."
+    },
     {
       image: image1,
       caption: "Protecting Crops, Ensuring Harvests 🌱",
@@ -53,16 +58,33 @@ function HomeCarousel() {
               overflow: "hidden"
             }}
           >
-            {/* Background Image */}
-            <img
-              src={slide.image}
-              alt={slide.caption}
-              style={{
-                width: "100%",
-                height: "100%",
-                objectFit: "cover"
-              }}
-            />
+            {/* Background Image or Video */}
+            {slide.image ? (
+              <img
+                src={slide.image}
+                alt={slide.caption}
+                style={{
+                  width: "100%",
+                  height: "100%",
+                  objectFit: "cover"
+                }}
+              />
+            ) : slide.video ? (
+              <video
+                autoPlay
+                muted
+                loop
+                playsInline
+                style={{
+                  width: "100%",
+                  height: "160%",
+                  objectFit: "cover"
+                }}
+              >
+                <source src={slide.video} type="video/mp4" />
+                Your browser does not support the video tag.
+              </video>
+            ) : null}
 
             {/* Caption Overlay */}
             <Box

@@ -9,10 +9,12 @@ import Contact from "./pages/Contact";
 import ScrollToTopButton from "./components/ScrollToTopButton";
 import Testimonials from "./pages/Testimonials";
 import ProductDetailPage from "./pages/ProductDetailPage";
+import TopBar from "./components/TopBar";
 
 function App() {
   return (
     <Router>
+      <TopBar />
       <Navbar />
       <Routes>
         <Route path="/" element={<Home />} />

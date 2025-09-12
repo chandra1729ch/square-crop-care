@@ -9,14 +9,15 @@ import {
   Avatar,
   Box,
 } from "@mui/material";
+import video1 from '../customer_veerabhadra.mp4'
 
 const testimonials = [
   {
-    name: "Ravi Kumar",
+    name: "Veerabhara",
     role: "Farmer",
     review:
       "Square Cropcare products have boosted my yield significantly. The quality is unmatched!",
-    video: "https://www.w3schools.com/html/mov_bbb.mp4",
+    video: video1,
     avatar: "https://i.pravatar.cc/150?img=1",
   },
   {

@@ -103,7 +103,7 @@ export default function Navbar() {
       <AppBar
         position="static"
         sx={{
-          background: "linear-gradient(90deg, #2e7d32, #ffcc80)",
+          background: "linear-gradient(90deg, #0e8313ff, #e99922ff)",
           boxShadow: "0px 3px 10px rgba(0,0,0,0.3)",
         }}
       >
