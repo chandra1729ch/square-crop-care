@@ -22,7 +22,7 @@ function Contact() {
       map: "https://www.google.com/maps/embed?pb=!1m17!1m12!1m3!1d3806.762982985704!2d78.4488334751657!3d17.423158583470126!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m2!1m1!2zMTfCsDI1JzIzLjQiTiA3OMKwMjcnMDUuMSJF!5e0!3m2!1sen!2sin!4v1756993250886!5m2!1sen!2sin",
     },
     {
-      city: "Factory Address 1",
+      city: "WareHouse Address",
       name: "SQUARE CROP CARE SCIENCES PRIVATE LIMITED",
       address: "G P H No. 1-1/T34 A No. 95,Sy No. 88/E, Masaipet Mandal, Pothansettypally chowrastha, Medak, Telangana-502109.",
       phone1: "9000406007",
@@ -31,18 +31,7 @@ function Contact() {
       gtsNo:"36ABHCS4437L1ZW",
       email: "squarecropcarepvtltd22@gmail.com",
       map: "https://www.google.com/maps/embed?pb=!1m17!1m12!1m3!1d3796.258409867804!2d78.47778697517728!3d17.920097383060856!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m2!1m1!2zMTfCsDU1JzEyLjQiTiA3OMKwMjgnNDkuMyJF!5e0!3m2!1sen!2sin!4v1756993450530!5m2!1sen!2sin"
-    },
-    {
-      city: "Factory Address 2",
-      name: "SQUARE CROP CARE SCIENCES PRIVATE LIMITED",
-      address: "Plot No, 15/P, Jeedimetla, Qutubullapur, Hyderabad, Medchal Malkajgiri,Telangana-500055.",
-      phone1: "9000406007",
-      phone3: "8008516644",
-      phone2:"040-45330111",
-      gtsNo:"36ABHCS4437L1ZW",
-      email: "squarecropcarepvtltd22@gmail.com",
-      map: "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d30437.941471583385!2d78.43624630561139!3d17.519792536943516!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bcb9003dc198f03%3A0xaef138a0a8179e74!2sJeedimetla%2C%20Hyderabad%2C%20Telangana!5e0!3m2!1sen!2sin!4v1756993984336!5m2!1sen!2sin",
-    },
+    }
   ];
 
   return (
@@ -107,7 +96,7 @@ function Contact() {
         >
           Find Us on Map
         </Typography>
-        <Grid container spacing={10}>
+        <Grid container spacing={3} justifyContent="center">
           {offices.map((office, index) => (
             <Grid item xs={12} md={4} key={index}>
               <Typography

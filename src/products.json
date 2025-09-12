@@ -1,5 +1,6 @@
 [
   {
+    "id": 1,
     "name": "Square Max",
     "description": "Square Max is a chelated micro nutrients mixture. It plays an important role in enhancing the utilization of Nitrogen, Phosphorus and Potash in plants.",
     "crop": "Lime, Orange, Chilli, Cotton, Paddy, Mango; suitable for leafy vegetable crops and all crops",
@@ -8,6 +9,7 @@
     "imagepath": "image_1.jpg"
   },
   {
+    "id": 2,
     "name": "Square Max Pro",
     "description": "Square Max Pro (Formula 04) is a more chelated micronutrients mixture. It contains natural amino acids to obtain higher yields and helps balanced intake of Nitrogen, Phosphorus and Potash.",
     "crop": "Citrus, Chili, Cotton, Paddy, Mango; suitable for all Vegetable Crops, Fruit Gardens and all crops",
@@ -16,6 +18,7 @@
     "imagepath": "image_2.jpg"
   },
   {
+    "id": 3,
     "name": "Square 6",
     "description": "Square 6 (Formula 06) micro nutrient mixture. Enhances higher yields and plays a main role for intake of nitrogen, phosphorus, and potash.",
     "crop": "Lemon, Orange, Chilli, Cotton, Paddy, Mango, and Vegetable crops; suitable for fruit gardens",
@@ -24,6 +27,7 @@
     "imagepath": "image_3.jpg"
   },
   {
+    "id": 4,
     "name": "Square Chilla",
     "description": "Square Chilla (Arka Z-12) contains chelated zinc 12% EDTA. Spreads immediately into plant parts and fulfills zinc deficiency due to quicker action.",
     "crop": "Cotton, Paddy, Chilly, All Vegetable Crops, all Fruit Gardens, Horticulture Crops and Citrus, Spices crops",
@@ -32,6 +36,7 @@
     "imagepath": "image_4.jpg"
   },
   {
+    "id": 5,
     "name": "Zinc 33",
     "description": "Zinc 33 (Zinc Sulphate Mono Hydrate 33%). Spreads quickly after spraying and fulfills zinc deficiency immediately to avoid damage.",
     "crop": "Cotton, maize, paddy, groundnut, soybean, all vegetable crops, all fruit gardens, horticulture crops, flower gardens, citrus crops",
@@ -40,6 +45,7 @@
     "imagepath": "image_5.jpg"
   },
   {
+    "id": 6,
     "name": "Zinc 21",
     "description": "Zinc 21 contains Zinc 21% (raw Zinc) and Sulphur 10%. Fulfills zinc deficiency; soil application only.",
     "crop": "Cotton, chilly, paddy, orange, and other vegetable crops",
@@ -48,6 +54,7 @@
     "imagepath": "image_6.jpg"
   },
   {
+    "id": 7,
     "name":"Square Mag",
     "description": "Square Mag (Magnesium sulphate) fulfills magnesium deficiency in all crops and enhances yields.",
     "crop": "Cotton, chilly, paddy, orange, and other vegetable crops",
@@ -56,6 +63,7 @@
     "imagepath": "image_7.jpg"
   },
   {
+    "id": 8,
     "name":"Square Boro",
     "description": "Square Boro (Boron 20%) fulfills boron deficiency, cures fruit cracking in fruit and leafy vegetables, and enhances flower production.",
     "crop": "Paddy, cotton, chilly, banana, papaya, grapes, tomato, brinjal, all vegetable crops, all fruit crops, horticulture crops, citrus species crops",
@@ -64,6 +72,7 @@
     "imagepath": "image_8.jpg"
   },
   {
+    "id": 9,
     "name":"Square Double",
     "description": "Square Double (Formula 4) liquid micro nutrients mixture for more flowers, quality and uniform fruit size, higher yields.",
     "crop": "Paddy, Cotton, Chilly, Banana, Papaya, Grapes, Tomato, Brinjal, All Vegetables, All Fruits, Horticulture Crops, Citrus species",
@@ -72,6 +81,7 @@
     "imagepath": "image_9.jpg"
   },
   {
+    "id": 10,
     "name":"Square Max Gold",
     "description": "Square Max Gold (Formula No. 7). Addresses Zinc, Manganese, Iron deficiency; improves soil compaction and contributes to higher yields.",
     "crop": "All crops",
@@ -80,22 +90,25 @@
     "imagepath": "image_10.jpg"
   },
   {
+    "id": 11,
     "name":"Square Clean",
     "description": "Square Clean (Phosphoric acid). Increases grain size, fruit weight, shine, oil content; improves resistance to pests, diseases, and abiotic stress.",
     "crop": "All crops",
     "dosage": "1–2 ml per 1 liter water",
     "packsize": "250 ml, 500 ml, 1 liter",
-    "imagepath": "image_11.jpg"
+    "imagepath": "image_12.jpg"
   },
   {
+    "id": 12,
     "name":"Square Jock",
     "description": "Square Jock is an amino acid, protein-based product that increases hormone activity, supports protein synthesis, pod/coat formation, and plant immunity.",
     "crop": "All crops",
     "dosage": "2.5–3.5 g per 1 liter water",
     "packsize": "250 g",
-    "imagepath": "image_12.jpg"
+    "imagepath": "image_11.jpg"
   },
   {
+    "id": 13,
     "name":"Square Luca",
     "description": "Square Luca is an amino acid, protein-based product that increases hormone activity, supports protein synthesis, pod/coat formation, and plant immunity.",
     "crop": "All crops",
@@ -104,6 +117,7 @@
     "imagepath": "image_13.jpg"
   },
   {
+    "id": 14,
     "name":"Square Potash",
     "description": "Square Potash is an amino acid, protein-based product that increases hormone activity, supports protein synthesis, pod/coat formation, and plant immunity.",
     "crop": "All crops",
@@ -112,6 +126,7 @@
     "imagepath": "image_14.jpg"
   },
   {
+    "id": 15,
     "name":"Square Alex",
     "description": "Square Alex effectively controls leaf spot, root rot, gemini virus, downy mildew, blight, and powdery mildew; safe for environment.",
     "crop": "All crops",
@@ -120,6 +135,7 @@
     "imagepath": "image_15.jpg"
   },
   {
+    "id": 16,
     "name":"S Max",
     "description": "S Max Micro Nutrients: essential elements for plant metabolism, enzyme functions, and yield; for prevention and cure of deficiencies.",
     "crop": "Chilli, Cotton, Paddy, Maize and other vegetable crops",
@@ -128,6 +144,7 @@
     "imagepath": "image_16.jpg"
   },
   {
+    "id": 17,
     "name":"S Zinker",
     "description": "S Zinker (Chelated zinc 12% EDTA) for quick correction of zinc deficiency.",
     "crop": "Cotton, Paddy, Chilly, All Vegetable Crops, all Fruit Gardens, Horticulture Crops and Citrus, Spices crops",
@@ -136,6 +153,7 @@
     "imagepath": "image_17.jpg"
   },
   {
+    "id": 18,
     "name":"S Zinker Gr",
     "description": "S Zinker Gr contains Zinc 21% (raw) and Sulphur 10%. Soil application only.",
     "crop": "Cotton, chilly, paddy, orange, and other vegetable crops",
@@ -144,6 +162,7 @@
     "imagepath": "image_18.jpg"
   },
   {
+    "id": 19,
     "name":"S-Zinker 33",
     "description": "S-Zinker 33 (Zinc Sulphate Mono Hydrate 33%). Quick spread and correction of zinc deficiency.",
     "crop": "Cotton, maize, paddy, groundnut, soybean, all vegetables, all fruit gardens, horticulture crops, flower gardens, citrus crops",
@@ -152,6 +171,7 @@
     "imagepath": "image_19.jpg"
   },
   {
+    "id": 20,
     "name":"S-Mag",
     "description": "S-Mag (Magnesium sulphate) fulfills magnesium deficiency and enhances yields.",
     "crop": "Cotton, chilly, paddy, orange, and other vegetable crops",
@@ -160,6 +180,7 @@
     "imagepath": "image_20.jpg"
   },
   {
+    "id": 21,
     "name":"Square 2 in 1",
     "description": "Square 2 in 1 is a naturally derived biological product to improve plant health and resistance.",
     "crop": "Chilli, Tomato, Brinjal, Bhendi, Vegetables and Horticultural Crops, Other Fruits & Vegetables",
@@ -168,6 +189,7 @@
     "imagepath": "image_21.jpg"
   },
   {
+    "id":22,
     "name":"Square F7",
     "description": "Square F7 (Formula No. 7). Fulfills Zinc, Manganese and Iron deficiency; improves soil compaction and yields.",
     "crop": "All crops",
@@ -176,6 +198,7 @@
     "imagepath": "image_22.jpg"
   },
   {
+    "id": 23,
     "name":"TOMY",
     "description": "TOMY (Formula 06) micro nutrient mixture for higher yields and improved N-P-K intake.",
     "crop": "Lemon, Orange, Chilli, Cotton, Paddy, Mango, Vegetable crops; suitable for fruit gardens",
@@ -184,6 +207,7 @@
     "imagepath": "image_23.jpg"
   },
   {
+    "id": 24,
     "name": "KMS",
     "description": "KMS",
     "crop": "Paddy, Cotton, Chilli, Banana, Pomegranate, Citrus, Grapes, Flowers, Oil Palm, Tobacco & Vegetables etc.",
@@ -192,6 +216,7 @@
     "imagepath": "image_24.jpg"
   },
   {
+    "id": 25,
     "name": "Square Samriddhi",
     "description": "Square Samriddhi: naturally derived biological product that promotes root growth, nutrient absorption, flower & fruit setting; increases yield.",
     "crop": "Paddy, Chilli, Cotton, Tomato and other crops",
@@ -200,6 +225,7 @@
     "imagepath": "image_25.jpg"
   },
   {
+    "id": 26,
     "name": "Square Samriddhi Gold",
     "description": "Square Samriddhi Gold: naturally derived biological product; promotes root growth, nutrient absorption, flower & fruit setting; increases yield.",
     "crop": "Paddy, Chilli, Cotton, Tomato and other crops",
@@ -208,6 +234,7 @@
     "imagepath": "image_26.jpg"
   },
   {
+    "id": 27,
     "name": "Seabion",
     "description": "Seabion (Bio-stimulant with humic acid). Stimulates cellular processes, division, vegetative & reproductive growth; enhances enzymes and plant immunity; reduces flower & fruit drop.",
     "crop": "Cotton, Chilli, Fruits & Vegetables",
@@ -216,6 +243,7 @@
     "imagepath": "image_27.jpg"
   },
   {
+    "id": 28,
     "name": "S-COT",
     "description": "S-COT (Double COTT): naturally derived biological product that improves plant vigor and resistance across crops.",
     "crop": "Cotton, Chilli, Tomato, other Fruits & Vegetables",
@@ -224,6 +252,7 @@
     "imagepath": "image_28.jpg"
   },
   {
+    "id": 29,
     "name": "Katana",
     "description": "Katana: naturally derived biological product that protects plants from pest complex for a longer period; makes plants healthy & vigorous.",
     "crop": "Cotton, chilli, tomato, other fruits & vegetables",
@@ -232,6 +261,7 @@
     "imagepath": "image_29.jpg"
   },
   {
+    "id": 30,
     "name": "Sarpanch",
     "description": "Sarpanch: involved in stress resistance; acts as stress metabolite; creates defensive mechanism for resistance to sucking pests & BPH.",
     "crop": "Chilli, Tomato, Bhendi, Mango, Cotton, Paddy, pulses, horticulture crops and vegetables",
@@ -240,6 +270,7 @@
     "imagepath": "image_30.jpg"
   },
   {
+    "id": 31,
     "name": "Square-Z",
     "description": "Square-Z: naturally derived biological product that improves plant vigor and resistance; maintains hormonal balance and increases quality yield.",
     "crop": "Chilli, Tomato, Bhendi, Mango, Cotton, Paddy, pulses, Horticulture Crops and Vegetables",
@@ -248,6 +279,7 @@
     "imagepath": "image_31.jpg"
   },
   {
+    "id": 32,
     "name": "Square Power",
     "description": "",
     "crop": "",
@@ -256,6 +288,7 @@
     "imagepath": "image_32.jpg"
   },
   {
+    "id": 33,
     "name": "Black",
     "description": "Black: naturally derived biological product that improves plant vigor and resistance across crops.",
     "crop": "Chilli, Tomato, Bhendi, Mango, Cotton, Paddy, pulses, horticulture crops and vegetables",
@@ -264,6 +297,7 @@
     "imagepath": "image_33.jpg"
   },
   {
+    "id": 34,
     "name": "Spark",
     "description": "Spark: initiates flowering; helps flower bud differentiation for early flowering, healthy growth, and increased yields.",
     "crop": "Blackgram, Bengalgram, Redgram, Chilli, Cotton, Paddy, Mango, Citrus, Cocoa & all Vegetables",
@@ -272,6 +306,7 @@
     "imagepath": "image_34.jpg"
   },
   {
+    "id": 35,
     "name": "Exboss",
     "description": "Exboss: involved in stress resistance; acts as stress metabolite; creates defensive mechanism for resistance to sucking pests & BPH.",
     "crop": "Chilli, Tomato, Bhendi, Mango, Cotton, Paddy, pulses, horticulture crops and vegetables",
@@ -280,6 +315,7 @@
     "imagepath": "image_35.jpg"
   },
   {
+    "id": 36,
     "name": "Nito",
     "description": "Nito: naturally derived botanical product that improves plant vigor and resistance across crops.",
     "crop": "Cotton, Chilli, Tomato, other Fruits & Vegetables",
@@ -288,6 +324,7 @@
     "imagepath": "image_36.jpg"
   },
   {
+    "id": 37,
     "name": "50-50",
     "description": "50-50: naturally derived biological product that improves plant vigor and resistance across crops.",
     "crop": "Cotton, Chilli, Tomato, other Fruits & Vegetables",
@@ -296,6 +333,7 @@
     "imagepath": "image_37.jpg"
   },
   {
+    "id": 38,
     "name": "Punch",
     "description": "Punch: naturally derived biological product that improves plant vigor and resistance across field and horticulture crops.",
     "crop": "Cotton, Chilli, Tomato, other Fruits & Vegetables",
@@ -304,6 +342,7 @@
     "imagepath": "image_38.jpg"
   },
    {
+    "id": 39,
     "name": "Spark",
     "description": "",
     "crop": "",
@@ -312,6 +351,7 @@
     "imagepath": "image_39.jpg"
   },
   {
+    "id": 40,
     "name": "Avenger",
     "description": "Square Activa is a naturally derived Biological Products The Plants From Post Complex For Longer Period And Makes The Plants Healthy & Vigorous.",
     "crop": "cotton , chilli , tomato, other fruits & vegetables.",
@@ -320,6 +360,7 @@
     "imagepath": "image_40.jpg"
   },
   {
+    "id": 41,
     "name": "Zyme Gold",
     "description": "",
     "crop": "",
@@ -328,6 +369,7 @@
     "imagepath": "image_41.jpg"
   },
   {
+    "id": 42,
     "name": "Laxman",
     "description": "",
     "crop": "",
@@ -336,6 +378,7 @@
     "imagepath": "image_45.jpg"
   },
   {
+    "id": 43,
     "name": "Ram",
     "description": "",
     "crop": "",
@@ -344,6 +387,7 @@
     "imagepath": "image_46.jpg"
   },
   {
+    "id": 44,
     "name": "Custod",
     "description": "Custod: naturally derived biological product that protects plants from pest complex for longer period; makes plants healthy & vigorous.",
     "crop": "Cotton, Chilli, Tomato, other Fruits & Vegetables",
@@ -352,6 +396,7 @@
     "imagepath": "image_44.jpg"
   },
   {
+    "id": 45,
     "name": "C-King",
     "description": "C-King: naturally derived biological product that improves plant vigor and resistance across crops.",
     "crop": "Cotton, Chilli, Tomato, other Fruits & Vegetables",
@@ -360,6 +405,7 @@
     "imagepath": "image_47.jpg"
   },
   {
+    "id": 46,
     "name": "HASMAK",
     "description": "HASMAK: naturally derived biological product that improves plant vigor and resistance across crops.",
     "crop": "Cotton, Chilli, Tomato, other Fruits & Vegetables",
@@ -368,6 +414,7 @@
     "imagepath": "image_48.jpg"
   },
   {
+    "id": 47,
     "name": "S-Cott Super",
     "description": "S-Cott Super: naturally derived botanical product that improves plant vigor and resistance across crops.",
     "crop": "Cotton, Chilli, Tomato, Other Fruits & Vegetables",
@@ -376,6 +423,7 @@
     "imagepath": "image_49.jpg"
   },
   {
+    "id": 48,
     "name": "Suvarna",
     "description": "Suvarna: naturally derived botanical product; maintains hormonal balance, induces excellent growth, increases quality yield.",
     "crop": "Cotton, Chilli, Tomato, Other Fruits & Vegetables",
@@ -384,6 +432,7 @@
     "imagepath": "image_50.jpg"
   },
   {
+    "id": 49,
     "name": "Champion",
     "description": "Champion: naturally derived biological product that improves plant vigor and resistance in paddy and horticulture crops.",
     "crop": "Paddy, field and horticulture crops",
@@ -392,6 +441,7 @@
     "imagepath": "image_51.jpg"
   },
   {
+    "id": 50,
     "name": "Square Gold",
     "description": "Square Gold: naturally derived biological product that improves plant vigor and resistance across field & horticulture crops.",
     "crop": "",
@@ -400,6 +450,7 @@
     "imagepath": "image_52.jpg"
   },
   {
+    "id": 51,
     "name": "Marcus",
     "description": "Marcus: naturally derived botanical product that improves plant vigor and resistance across crops.",
     "crop": "Cotton, Chilli, Tomato, Other Fruits & Vegetables",
@@ -408,6 +459,7 @@
     "imagepath": "image_53.jpg"
   },
   {
+    "id": 52,
     "name": "Allout",
     "description": "Allout: naturally derived biological product that improves plant vigor and resistance across paddy, cotton, and horticulture crops.",
     "crop": "Cotton, Chilli, Tomato, other Fruits & Vegetables",
@@ -416,6 +468,7 @@
     "imagepath": "image_54.jpg"
   },
   {
+    "id": 53,
     "name": "Yasmine",
     "description": "",
     "crop": "",
@@ -424,6 +477,7 @@
     "imagepath": "image_55.jpg"
   },
   {
+    "id": 54,
     "name": "Flora",
     "description": "",
     "crop": "",
@@ -432,6 +486,7 @@
     "imagepath": "image_56.jpg"
   },
   {
+    "id": 55,
     "name": "Jasmine",
     "description": "",
     "crop": "",
@@ -440,6 +495,7 @@
     "imagepath": "image_57.jpg"
   },
   {
+    "id": 56,
     "name": "Supreme",
     "description": "",
     "crop": "",
@@ -448,6 +504,7 @@
     "imagepath": "image_58.jpg"
   },
   {
+    "id": 57,
     "name": "Exo Mite Super",
     "description": "Exo Mite Super: naturally derived biological product that protects plants from pest complex for longer period; makes plants healthy & vigorous.",
     "crop": "Cotton, chilli, tomato, other fruits & vegetables",
@@ -456,6 +513,7 @@
     "imagepath": "image_59.jpg"
   },
   {
+    "id": 58,
     "name": "Ferti Gold",
     "description": "Ferti Gold (Soil Conditioner): promotes root growth, nutrient absorption; induces flower & fruit setting; increases yield.",
     "crop": "Paddy, Chilli, Cotton, Tomato and other crops",
@@ -464,6 +522,7 @@
     "imagepath": "image_60.jpg"
   },
   {
+    "id": 59,
     "name": "Square SP",
     "description": "Square SP: naturally derived biological product that improves plant vigor and resistance across field & horticulture crops.",
     "crop": "Cotton, Chilli, Tomato, other Fruits & Vegetables",
@@ -472,6 +531,7 @@
     "imagepath": "image_61.jpg"
   },
   {
+    "id": 60,
     "name": "Sarkar",
     "description": "Sarkar: naturally derived biological product that promotes root growth, nutrient absorption; induces flower & fruit setting; increases yield.",
     "crop": "Paddy, Chilli, Cotton, Tomato and other crops",
@@ -480,6 +540,7 @@
     "imagepath": "image_62.jpg"
   },
   {
+    "id": 61,
     "name": "Super Focus",
     "description": "Super Focus: naturally derived botanical product with amino acids; improves plant vigor and resistance to pests & diseases.",
     "crop": "Cotton, Chilli, Tomato, Other Fruits & Vegetables",
@@ -488,6 +549,7 @@
     "imagepath": "image_63.jpg"
   },
   {
+    "id": 62,
     "name": "Square Zyme Liquid Plus",
     "description": "Square Zyme Liquid Plus: humic-acid-based; stimulates cellular processes; increases vegetative & reproductive growth; enhances enzymes and plant immunity; provides macro/micro nutrients; promotes root & shoot growth; reduces flower & fruit drop.",
     "crop": "Cotton, Chilli, Tomato, other Fruits & Vegetables",

@@ -3,6 +3,7 @@ import { Container, Typography, Pagination, Box } from "@mui/material";
 import products from "../products.json"; // Make sure this is a valid array
 import Product from "../components/Product";
 import "../components/Product.css"; // Your custom CSS
+import BackButton from "../components/BackButton";
 
 function Products() {
   const [page, setPage] = useState(1);
@@ -18,6 +19,7 @@ function Products() {
 
   return (
     <Container maxWidth="lg" sx={{ py: 6 }}>
+      <BackButton />
       <Typography
         variant="h4"
         textAlign="center"

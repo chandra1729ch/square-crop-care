@@ -7,6 +7,8 @@ import Products from "./pages/Products";
 import Team from "./pages/Team";
 import Contact from "./pages/Contact";
 import ScrollToTopButton from "./components/ScrollToTopButton";
+import Testimonials from "./pages/Testimonials";
+import ProductDetailPage from "./pages/ProductDetailPage";
 
 function App() {
   return (
@@ -16,6 +18,8 @@ function App() {
         <Route path="/" element={<Home />} />
         <Route path="/about" element={<About />} />
         <Route path="/products" element={<Products />} />
+        <Route path="/products/:id" element={<ProductDetailPage />} />
+        <Route path="/testimonial" element={<Testimonials />} />
         <Route path="/team" element={<Team />} />
         <Route path="/contact" element={<Contact />} />
       </Routes>

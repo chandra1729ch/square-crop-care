@@ -1,5 +1,5 @@
 import { Box, Grid, Typography, IconButton, Paper } from "@mui/material";
-import logo from "../../src/logo-square1.png";
+import logo from "../../src/logo4.png";
 import FacebookIcon from "@mui/icons-material/Facebook";
 import TwitterIcon from "@mui/icons-material/Twitter";
 import LinkedInIcon from "@mui/icons-material/LinkedIn";
@@ -22,27 +22,18 @@ function Footer() {
       email: "squarecropcarepvtltd22@gmail.com",
     },
     {
-      city: "Factory Address 1",
+      city: "WareHouse Address",
       name: "SQUARE CROP CARE SCIENCES PRIVATE LIMITED",
       address:
         "G P H No. 1-1/T34 A No. 95,Sy No. 88/E, Masaipet Mandal, Pothansettypally chowrastha, Medak, Telangana-502109.",
       phone: "040-45330111/9000406007/8008516644",
       gtsNo: "36ABHCS4437L1ZW",
       email: "squarecropcarepvtltd22@gmail.com",
-    },
-    {
-      city: "Factory Address 2",
-      name: "SQUARE CROP CARE SCIENCES PRIVATE LIMITED",
-      address:
-        "Plot No, 15/P, Jeedimetla, Qutubullapur, Hyderabad, Medchal Malkajgiri,Telangana-500055.",
-      phone: "040-45330111/9000406007/8008516644",
-      gtsNo: "36ABHCS4437L1ZW",
-      email: "squarecropcarepvtltd22@gmail.com",
-    },
+    }
   ];
 
   return (
-    <Box sx={{ backgroundColor: "green", color: "white", p: 4, mt: 4 }}>
+    <Box sx={{ background: "linear-gradient(90deg, #2e7d32, #ffcc80)", color: "white", p: 4, mt: 4 }}>
       <Grid container spacing={4}>
         <Typography>
                   <img
